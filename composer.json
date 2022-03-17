@@ -1,0 +1,11 @@
+{
+    "name": "iamandrewluca/run-node-with-php",
+    "type": "project",
+    "license": "MIT",
+    "scripts": {
+        "run-php": [
+            "npm run build-binary",
+            "php run.php"
+        ]
+    }
+}
